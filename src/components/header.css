@@ -1,4 +1,18 @@
 .header {
-    background-color: red;
+    padding: 46px 0 56px;
+}
 
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header__logo {}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
