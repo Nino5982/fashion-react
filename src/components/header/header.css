@@ -9,8 +9,20 @@
     column-gap: 30px;
 }
 
-.header__logo {}
-
+.header__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+.header__logo img{
+    width: 31px;
+    height: 29px;
+}
+.header__logo span {
+    font-size: 40px;
+    letter-spacing: 3%;
+    
+}
 .header_nav {
     display: flex;
     justify-content: space-between;
