@@ -24,7 +24,7 @@ export default function Header() {
               <li>
                 <a href="#!">LIFESTYLE</a>
               </li>
-              <li>
+              <li className="header__nav--btn">
                 <a href="#!">SIGN UP</a>
               </li>
             </ul>
