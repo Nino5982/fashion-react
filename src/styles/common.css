@@ -1,5 +1,11 @@
+:root {
+    --textColor: #000000;
+    --yellow: #EBD96B;
+}
+
 body {
     font-family: 'poppins', sans-serif;
+    color: var(--textColor);
 }
 
 .container {

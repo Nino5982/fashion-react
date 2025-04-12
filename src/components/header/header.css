@@ -14,17 +14,36 @@
     align-items: center;
     column-gap: 13px;
 }
-.header__logo img{
+
+.header__logo img {
     width: 31px;
     height: 29px;
 }
+
 .header__logo span {
+    font-family: Poppins;
+    font-weight: 900;
     font-size: 40px;
-    letter-spacing: 3%;
-    
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.header_nav {
+
+.header__nav {
+    max-width: 840px;
+    width: 100%;
+}
+
+.header__nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+}
+
+.header__nav ul li {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
 }
