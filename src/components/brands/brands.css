@@ -1,0 +1,17 @@
+.brands {
+    background-color: var(--yellow);
+    /* height: 186px; */
+    padding: 58px 0;
+    margin-bottom: 120px;
+}
+
+.brands--wrapper {
+    max-width: 1572px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    mix-blend-mode: multiply;
+    gap: 120px;
+}
