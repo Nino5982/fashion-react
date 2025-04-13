@@ -1,0 +1,30 @@
+.arrivals {
+    margin-bottom: 143px;
+
+}
+
+.arrivals__title {
+    margin-bottom: 100px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.arrivals__title::after {
+    content: "";
+    display: block;
+    width: 190px;
+    height: 32px;
+    background-image: url('../../img/icons/decor-yellow.svg');
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.cards__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}

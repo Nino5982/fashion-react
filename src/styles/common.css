@@ -13,3 +13,10 @@ body {
     margin: 0 auto;
     padding: 0 30px;
 }
+
+.sections--title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 0.06em;
+}
