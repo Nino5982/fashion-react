@@ -5,6 +5,7 @@ import openIcon from "../../img/icons/arrow.svg";
 export default function Card({ title, img }) {
   return (
     <div className={styles.card}>
+      <a className={styles.card__link} href="#!"></a>
       <div className={styles.card__img}>
         <img src={img} alt={title} />
       </div>
