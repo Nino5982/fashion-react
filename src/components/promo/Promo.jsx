@@ -1,7 +1,6 @@
 import "./promo.css";
-import promoImg from "../../img/images/header-img.jpg";
 
-export default function Promo() {
+export default function Promo({ promoImg }) {
   return (
     <section className="promo">
       <div className="container">
