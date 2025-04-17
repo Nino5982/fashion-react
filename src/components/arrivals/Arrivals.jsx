@@ -1,11 +1,7 @@
-import Card from "../cards/Card";
 import styles from "./Arrivals.module.css";
+import Card from "../cards/Card";
 
-import card1 from "../../img/categories/cat-01.jpg";
-import card2 from "../../img/categories/cat-02.jpg";
-import card3 from "../../img/categories/cat-03.jpg";
-
-export default function Arrivals() {
+export default function Arrivals({ cards }) {
   return (
     <section className={styles.arrivals}>
       <div className="container">
@@ -13,9 +9,9 @@ export default function Arrivals() {
           <h2 className="sections--title">NEW ARRIVALS</h2>
         </div>
         <div className={styles.cards__wrapper}>
-          <Card title="Hoodies & Sweetshirt" img={card1} />
-          <Card title="Coats & Parkas" img={card2} />
-          <Card title="Tees & T-Shirt" img={card3} />
+          {cards.map((card, index) => (
+            <Card key={index} title={card.title} img={card.image} />
+          ))}
         </div>
       </div>
     </section>
