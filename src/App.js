@@ -6,6 +6,7 @@ import GenericSection from "./components/genericSection/GenericSection";
 import Sale from "./components/sale/Sale";
 import Voucher from "./components/voucher/Voucher";
 import Subscribe from "./components/subscribe/Subscribe";
+import Footer from "./components/footer/Footer";
 
 // images
 import mainPromoImage from "./img/images/header-img.jpg";
@@ -46,6 +47,7 @@ function App() {
         <Voucher />
       </GenericSection>
       <Subscribe />
+      <Footer />
     </div>
   );
 }
