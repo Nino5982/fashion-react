@@ -25,3 +25,15 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.voucher {
+    margin-bottom: 206px;
+}
+
+.voucher .section__content {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1483px;
+    width: 100%;
+    justify-content: space-between;
+}

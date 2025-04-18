@@ -1,4 +1,6 @@
 import "./voucher.css";
+import appStore from "../../img/icons/app-store.png";
+import googlePlay from "../../img/icons/google-play.png";
 
 export default function Voucher({}) {
   return (
@@ -7,11 +9,14 @@ export default function Voucher({}) {
       <p className="voucher__desc">
         Get 30% off for first transaction using Rondovision mobile app for now.
       </p>
-      
 
       <div className="voucher__btn--wrapper">
         <a className="voucher__btn" href="#!">
-          Shop Now
+          <img src={appStore} alt="App-Store" />
+        </a>
+
+        <a className="voucher__btn" href="#!">
+          <img src={googlePlay} alt="Google-Play" />
         </a>
       </div>
     </div>
