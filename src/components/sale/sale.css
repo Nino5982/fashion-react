@@ -1,27 +1,6 @@
-.sale {
-    /* position: relative; */
-    max-width: 1920px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 190px;
-
-    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
-}
-
-.sale__content {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-}
-
-
 .sale__text {
-    max-width: 932px;
+    max-width: 666px;
     width: 100%;
-    padding-top: 128px;
-    padding-left: 67px;
-    /* position: absolute; */
 }
 
 
@@ -54,7 +33,7 @@
 
 .sale__desc {
     font-weight: 500;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 52px;
     letter-spacing: -0.02em;
     margin-bottom: 40px;
