@@ -5,13 +5,15 @@ import Promo from "./components/promo/Promo";
 import GenericSection from "./components/genericSection/GenericSection";
 import Sale from "./components/sale/Sale";
 import Voucher from "./components/voucher/Voucher";
+import Subscribe from "./components/subscribe/Subscribe";
+
+// images
 import mainPromoImage from "./img/images/header-img.jpg";
 import PromoImage2 from "./img/images/promo-img.jpg";
 import vouchers from "./img/images/vouchers-img.png";
 import cardImg1 from "./img/categories/cat-01.jpg";
 import cardImg2 from "./img/categories/cat-02.jpg";
 import cardImg3 from "./img/categories/cat-03.jpg";
-
 import cardImg4 from "./img/images/promo-01.jpg";
 import cardImg5 from "./img/images/promo-02.jpg";
 
@@ -43,6 +45,7 @@ function App() {
       <GenericSection promoImg={vouchers} sectionName="voucher">
         <Voucher />
       </GenericSection>
+      <Subscribe />
     </div>
   );
 }
